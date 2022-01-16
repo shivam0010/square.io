@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>FIND SQUARE OF ANY NUMBER</title>
+				<style>
+body{
+				background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );
+				height:100vh;
+}
+
+.head{
+				text-align:center;
+				font-size:25px;
+}
+
+.numbox{
+margin:0px 70px;
+}
+
+.numbox h1{
+				text-align:center;
+}
+
+#num{
+				height:130px;
+				width:800px;
+				font-size:60px;
+				outline:none;
+				border:13px inset #fff;
+		background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+		color:#fff;
+				box-shadow:5px 10px 10px rgba(0,0,0,0.5);
+		}
+		
+		.line{
+						height:100px;
+						width:5px;
+						background:#fff;
+						margin:0px 398px;
+		}
+
+   .lined{
+						height:5px;
+						width:570px;
+						background:#fff;
+						margin:0px 105px;
+		}
+
+
+.sub{
+				margin:15px 174px;
+}
+
+.btn{
+				width:570px;
+				height:50px;
+				border:3px solid #fff;
+				font-size:30px;
+				background:none;
+				border-radius:5px;
+				box-shadow:5px 10px 10px rgba(0,0,0,0.5);
+				color:#fff;
+				font-size:30px;
+}
+
+	//#ans{
+												border: 2px solid black;
+												display:inline;
+												margin-top:-240px;
+												margin-left:70px;
+												height:110px;
+												font-size:60px;
+												position: absolute;
+												background:#fff;
+												border:none;
+												color:#ff7e40;
+												
+								}
+
+										
+		
+
+</style>				
+</head>
+<body>
+			<div>
+			<div class="head">	<h1>
+					FIND SQUARE OF ANY NUMBER
+				</h1></div>
+				
+				<div class="numbox">
+					<h1>Enter Your Value Here  &dArr;</h1>			
+					<input type="number" value="" id="num" placeholder="">
+					
+					<header class="line"></header>
+					<header class="lined"></header>
+					</div>
+				  
+				  <div class="sub">
+<button class="btn" onclick="return square();">&ofcir;</button>
+					</div>
+					
+									
+</div>
+</body>
+<script>
+				
+	function square(){
+	var a = document.getElementById('num').value; 
+	//var b = a*a;
+	prompt ('YOUR ANSWER IS :-',a*a)
+ //document.getElementById('ans').innerHTML=b;
+ }
+ 
+</script>
+</html>
